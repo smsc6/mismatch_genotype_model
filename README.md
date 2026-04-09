@@ -4,6 +4,11 @@ Mismatch-based genotype prediction from read-level features in ancient DNA inclu
 ## Overview
 Code for genotype prediction from sequencing data using MLP and baseline models.
 
+## Data
+Raw data (BAM, VCF, FASTA) are not included in this repository- they are stored on the UCPH cluster and must be accessed there. All data-dependent scripts are intended to be run on the cluster environment.
+
+Paths in the code may need to be updated for local use.
+
 ## Files
 - `get_ref_base.py`: fetch reference base from FASTA
 - `parse_one_site.py`: extract base counts from BAM
